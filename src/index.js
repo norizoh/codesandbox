@@ -178,7 +178,30 @@ const nameArr = ["田中", "やまだ", "じゃけぇ"];
 
 // const formattedNum = typeof num === 'number' ? num.toLocaleString() : '数値をいれてください';
 // console.log(formattedNum);
-const checkSum = (num1, num2) => {
-  return num1 + num2 > 100 ? "100を超えています!!" : "許容範囲内です";
-};
-console.log(checkSum(41, 60));
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています!!" : "許容範囲内です";
+// };
+// console.log(checkSum(41, 60));
+
+/**
+ * 論理演算子
+ */
+// const flag1 = true;
+// const flag2 = true;
+
+// if (flag1 || flag2) {
+//   console.log("１か２はtrueになります");
+// }
+// if (flag1 && flag2) {
+//   console.log("１も２もtrueになります");
+// }
+
+// || が左側がfalseなら右側を返す
+// const num = 100;
+// const fee = num || "金額未設定です";
+// console.log(fee);
+
+// && が左側がtrueなら右側を返す
+const num2 = null;
+const fee2 = num2 && "何か設定されました";
+console.log(fee2);
