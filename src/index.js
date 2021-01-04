@@ -1,10 +1,37 @@
-import "./styles.css";
+/**
+ *  const.let等の変数宣言
+ */
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+// var val1 = "var変数";
+// console.log(val1);
+
+// //var変数は上書き可能
+// val1 = "var変数を上書き";
+// console.log(val1);
+
+// //var変数は再宣言可能
+// var val1 = "var変数を再宣言";
+// console.log(val1);
+
+// let val2 = "let変数";
+// console.log(val2);
+
+// //letは上書き可能
+// val2 = "let変数を上書き";
+// console.log(val2);
+
+// //letは再宣言不可能
+// let val2 = "let変数を再宣言";
+
+//const val3 = "const変数";
+//console.log(val3);
+
+//val3 = "test";
+//const val3 = "test";
+
+// const val4 = {
+//   name: "test",
+//   age: 35
+// };
+// val4.name = "test333";
+// console.log(val4);
